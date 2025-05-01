@@ -25,7 +25,7 @@ const parsedData = JSON.parse(data);
 const server = http.createServer((req, res) => {
   const { query, pathname } = url.parse(req.url, true);
   // Overview
-  if (pathname === '/overview') {
+  if (pathname === '/' || pathname === '/overview') {
     res.writeHead(200, { 'Content-type': 'text/html' });
     const cards = parsedData
       .map((el) => replaceTemplate(cardTemplate, el))
@@ -52,6 +52,6 @@ const server = http.createServer((req, res) => {
 });
 
 // Listener
-server.listen(8000, '127.0.0.1', () => {
+server.listen(process.env.PORT, '127.0.0.1', () => {
   console.log('Listening to port 8000');
 });
