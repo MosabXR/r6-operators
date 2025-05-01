@@ -7,9 +7,6 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "start": "node index.js"
   }
 }
