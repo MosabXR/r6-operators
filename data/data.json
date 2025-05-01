@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Sledge",
+    "description": "Sledge uses his tactical breaching hammer to create quick entry points and disrupt defender setups, excelling in aggressive pushes.",
+    "role": "Soft Breacher",
+    "gadget": "Tactical Breaching Hammer",
+    "primary_weapons": "L85A2, M590A1",
+    "secondary_weapons": "P226 Mk 25",
+    "armor": "2",
+    "speed": "2",
+    "unit": "SAS",
+    "image": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a5964aa4_d968_fac5_ce3a_284bc2b05713.png?imwidth=492",
+    "link": "/operators/sledge"
+  },
+  {
+    "id": 1,
+    "name": "Mira",
+    "description": "Mira deploys bulletproof Black Mirrors to gain vision and control key areas, making her a cornerstone of defensive strategies.",
+    "role": "Intel Denier",
+    "gadget": "Black Mirror",
+    "primary_weapons": "Vector .45 ACP, ITA12L",
+    "secondary_weapons": "ITA12S, USP40",
+    "armor": "3",
+    "speed": "1",
+    "unit": "GEO",
+    "image": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9e20fa27_c2dd_fcd5_2264_8e383049a054.png?imwidth=690",
+    "link": "/operators/mira"
+  },
+  {
+    "id": 2,
+    "name": "Thermite",
+    "description": "Thermite’s exothermic charges can breach reinforced walls, making him essential for coordinated attacks on fortified objectives.",
+    "role": "Hard Breacher",
+    "gadget": "Exothermic Charge",
+    "primary_weapons": "556xi, M1014",
+    "secondary_weapons": "M45 MEUSOC, 5.7 USG",
+    "armor": "2",
+    "speed": "2",
+    "unit": "FBI SWAT",
+    "image": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/441d7df3_2e92_5080_afab_2ae59c65c565.png?imwidth=690",
+    "link": "/operators/thermite"
+  },
+  {
+    "id": 3,
+    "name": "Smoke",
+    "description": "Smoke uses toxic gas grenades to deny areas and delay attackers, excelling in anchoring and controlling choke points.",
+    "role": "Area Denial",
+    "gadget": "Remote Gas Grenade",
+    "primary_weapons": "FMG-9, M590A1",
+    "secondary_weapons": "P226 Mk 25, SMG-11",
+    "armor": "2",
+    "speed": "2",
+    "unit": "SAS",
+    "image": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/95dbd37c_d3b7_ddef_5217_259b2023d86e.png?imwidth=690",
+    "link": "/operators/smoke"
+  }
+]
