@@ -5,7 +5,7 @@ module.exports = (template, operator) => {
   output = output.replace(/{%ROLE%}/g, operator.role);
   output = output.replace(/{%GADGET%}/g, operator.gadget);
   output = output.replace(/{%PRIMARY_WEAPONS%}/g, operator.primary_weapons);
-  output = output.replace(/{%SECONDAY_WEAPONS%}/g, operator.secondary_weapons);
+  output = output.replace(/{%SECONDRAY_WEAPONS%}/g, operator.secondary_weapons);
   output = output.replace(/{%ARMOR%}/g, operator.armor);
   output = output.replace(/{%SPEED%}/g, operator.speed);
   output = output.replace(/{%UNIT%}/g, operator.unit);
