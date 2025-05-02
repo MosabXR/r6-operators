@@ -31,7 +31,6 @@
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         transition: transform 0.2s;
-        display: flex;
         justify-content: center;
       }
 
@@ -103,9 +102,18 @@
         color: #333;
       }
 
+      .flex-col-to-row {
+        display: flex;
+        flex-direction: column;
+      }
+
       @media (min-width: 620px) {
         .grid-container {
           grid-template-columns: 1fr;
+        }
+
+        .flex-col-to-row {
+          flex-direction: row;
         }
       }
     </style>
@@ -113,7 +121,7 @@
   <body>
     <main>
       <div class="grid-container">
-        <div class="card">
+        <div class="card flex-col-to-row">
           <img src="{%IMAGE%}" alt="{%NAME%}" />
           <div class="card-content">
             <h3>{%NAME%}</h3>

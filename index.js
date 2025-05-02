@@ -51,7 +51,12 @@ const server = http.createServer((req, res) => {
   }
 });
 
+// Configuration
+
+const HOST = process.env.PORT ? '0.0.0.0' : '127.0.0.1';
+const PORT = process.env.PORT || 8000;
+
 // Listener
-server.listen(process.env.PORT, '0.0.0.0', () => {
-  console.log(`Listening to ${process.env.PORT}`);
+server.listen(PORT, HOST, () => {
+  console.log(`Listening to ${HOST}:${PORT}`);
 });
